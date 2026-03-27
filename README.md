@@ -69,20 +69,20 @@ This folder includes machine learning models and notebooks for predicting psiloc
 *(we can refine this together later)*
 
 #### Python libraries required:
-Python 3.9.19
-numpy 2.0.2
-pandas 2.2.2
-matplotlib 3.9.2
-seaborn 0.13.2
-Pillow 10.4.0
-networkx 3.2.1
-scikit-image 0.24.0
-scikit-learn 1.5.2
-tqdm 4.67.1
-torch 2.4.1
-torchvision 0.19.1
-xgboost 3.2.0
-shap 0.51.0
+- Python 3.9.19
+- numpy 2.0.2
+- pandas 2.2.2
+- matplotlib 3.9.2
+- seaborn 0.13.2
+- Pillow 10.4.0
+- networkx 3.2.1
+- scikit-image 0.24.0
+- scikit-learn 1.5.2
+- tqdm 4.67.1
+- torch 2.4.1
+- torchvision 0.19.1
+- xgboost 3.2.0
+- shap 0.51.0
 
 ## Notes
 
