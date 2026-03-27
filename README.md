@@ -10,8 +10,10 @@ The data underlying this analysis can be found here:
 ### 📁 Image segmentation
 
 This folder contains ImageJ macros for processing raw microscopy images and extracting morphological structures.
+The raw microscopy images to run segmentation piplines can be found at:  
+ - Imaging data: `Dataset/Imaging data/*.tif` 
 
-The workflow consists of the following steps:
+The workflow consists of the four following steps:
 
 - **1_CFW segmentation.ijm**  
   Performs initial segmentation of fungal structures from microscopy images.
@@ -48,6 +50,8 @@ https://imagej.net/plugins/
 ### 📁 Feature extraction
 
 This folder contains scripts for extracting quantitative morphological features from segmented images.
+The segmnetation masks to run the feature extraction codes can be found at:  
+ - Imaging data: `Dataset/Segmentation watershed/*.tif` 
 
 - **Morphometry.ijm**  
   Extracts morphometric features of connceted components, including area, perimeter, circularity, Feret diameter, inscribed disk radius, and geodesic elongation. Results are exported as a `.csv` table together with metadata parsed from file names.
@@ -65,7 +69,7 @@ This folder contains machine learning workflows for predicting psilocybin produc
 - **Data augmentation.ipynb**  
   Performs preprocessing and augmentation of microscopy images to improve model generalization.
   The dataset used in this notebook can be found at:  
-  `Dataset/Imaging data/Cropped_inner_well/*.tif`
+  - `Dataset/Imaging data/Cropped_inner_well/*.tif`
   
 - **EfficientNet_B3.ipynb**  
   Implements a deep learning approach based on EfficientNet_B3 for predicting psilocybin production directly from image data and biorocess parameters.
@@ -76,7 +80,7 @@ This folder contains machine learning workflows for predicting psilocybin produc
 - **XGBoost.ipynb**  
   Applies gradient-boosted decision tree models (XGBoost) using morphological features and biorocess parameters to predict psilocybin production. Includes model training, evaluation, and feature importance analysis (e.g., SHAP).
   The dataset used in this notebook can be found at:  
-  `Dataset/Image-derived features/Merged_df.csv`
+  - `Dataset/Image-derived features/Merged_df.csv`
 
 #### Python libraries required:
 - Python 3.9.19
