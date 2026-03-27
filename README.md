@@ -59,9 +59,6 @@ This folder contains scripts for extracting quantitative morphological features 
   Computes graph-based degree centrality from segmented binary images by representing foreground pixels as nodes in an 8-connected network. The notebook generates centrality maps and exports degree-centrality distributions as a `.csv`.
 
 #### Python libraries required for `Degree centrality.ipynb`
-
-Please make sure the following Python libraries are installed:
-
 - `numpy`
 - `matplotlib`
 - `pandas`
