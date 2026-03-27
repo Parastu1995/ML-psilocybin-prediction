@@ -26,16 +26,6 @@ The workflow consists of the four following steps:
 - **4_Watershed split.ijm**  
   Applies watershed segmentation to separate connected fungal structures.
 
-#### Fiji plugins required
-- MorphoLibJ  
-- 3D ImageJ Suite  
-- Ridge Detection  
-- Tubeness  
-- Non-local Means Denoising  
-
-For more information on how to install plugins, please visit:  
-https://imagej.net/plugins/
-
 ### 📁 Feature extraction
 
 This folder contains scripts for extracting quantitative morphological features from segmented images.
@@ -70,7 +60,19 @@ This folder contains machine learning workflows for predicting psilocybin produc
   The dataset used in this notebook can be found at:  
   - `Dataset/Image-derived features/Merged_df.csv`
 
-#### Python libraries required:
+## Requiredment
+
+### Fiji plugins required
+- MorphoLibJ  
+- 3D ImageJ Suite  
+- Ridge Detection  
+- Tubeness  
+- Non-local Means Denoising  
+
+For more information on how to install plugins, please visit:  
+https://imagej.net/plugins/
+
+### Python libraries required:
 - Python 3.9.19
 - numpy 2.0.2
 - pandas 2.2.2
@@ -85,7 +87,7 @@ This folder contains machine learning workflows for predicting psilocybin produc
 - torchvision 0.19.1
 - xgboost 3.2.0
 - shap 0.51.0
-
+- 
 ## Notes
 
 Detailed information and parameter settings are provided as comments within the scripts.
