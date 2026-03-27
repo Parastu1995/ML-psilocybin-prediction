@@ -64,7 +64,7 @@ This folder contains machine learning workflows for predicting psilocybin produc
 - **EfficientNet_B3.ipynb**  
   Implements a deep learning approach based on EfficientNet_B3 for predicting psilocybin production directly from image data and biorocess parameters.
   The datasets used in this notebook can be found at:  
-  - Imaging data: `Dataset/Imaging data/Cropped_inner_well/*.tif` (or augmented versions of these images obtained via `Data augmentation.ipynb`)  
+  - Imaging data: `Dataset/Imaging data/Cropped_inner_well/*.tif` (or augmented versions of these)  
   - Bioprocess parameters: `Dataset/Bioprocess parameters/Bioprocess parameters.csv`
   
 - **XGBoost.ipynb**  
